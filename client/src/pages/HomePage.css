@@ -1,0 +1,225 @@
+/* @keyframes translation {
+    from {
+      transform: translate(0px, 0rem);
+    }
+    to {
+      transform: translate(1.5rem, 0rem);
+    }
+  } */
+
+@keyframes fadeing {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.home_header {
+  background-image: url(../assets/images/cercle_legumes3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.home_arrosoir {
+  width: 13rem;
+  padding-top: 15rem;
+  opacity: 0.9;
+  animation-name: fadeing;
+  animation-duration: 5s;
+  display: block;
+  margin: auto;
+  position: inherit;
+  margin-bottom: -3rem;
+}
+
+.home_title {
+  font-family: var(--secondary-font);
+  font-size: 4.8rem;
+  /* animation-name: translation;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards; */
+  animation-name: fadeing;
+  animation-duration: 5s;
+  /* animation: ease-in-out forwards; */
+  /* padding-top: 10rem; */
+  color: transparent;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: var(--tertiary-color);
+  text-shadow: -5px 5px 10px rgba(33, 22, 13 0.5);
+  text-align: center;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
+
+.home_header > p {
+  font-family: var(--primary-font);
+  animation-name: fadeing;
+  animation-duration: 5s;
+  font-size: 1.8rem;
+  font-style: italic;
+  font-weight: 700;
+  padding-top: 1.5rem;
+  text-align: right;
+  margin-top: -1.4rem;
+  text-align: center;
+  color: var(--secondary-color);
+  text-shadow: 0 10 10px rgba(255, 255, 255, 1);
+}
+
+.home_section_intro {
+  margin: 2rem;
+  font-family: var(--primary-font);
+  line-height: 1.5;
+}
+
+.home_section_intro > h1 {
+  font-family: var(--secondary-font);
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  color: var(--secondary-color);
+}
+
+.home_section_intro > p {
+  width: 75%;
+  font-family: var(--primary-font);
+  font-size: 1.5rem;
+  font-weight: 600;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  border-radius: 10px;
+  padding: 40px;
+  padding-bottom: 50px;
+  text-align: center;
+  position: absolute;
+  z-index: 2;
+  left: 3.9rem;
+  margin-top: 2rem;
+  box-shadow: 27px 8px 24px 0px rgba(46, 51, 47, 1);
+}
+
+.home_img_carots {
+  position: absolute;
+  z-index: 3;
+  width: 3rem;
+  right: 3.5rem;
+  margin-top: 20rem;
+}
+
+.home_intro_frame_deco {
+  border: 2.5px dashed var(--tertiary-color);
+  border-radius: 5px;
+  padding: 40px;
+  width: 18rem;
+  height: 20rem;
+  position: absolute;
+  z-index: 1;
+}
+
+.home_intro_arrow {
+  position: absolute;
+  z-index: 4;
+  width: 7rem;
+  right: 6rem;
+  margin-top: 25rem;
+}
+
+.home_intro_astuces {
+  position: absolute;
+  width: 25rem;
+  margin-top: 26rem;
+  margin-left: -5rem;
+}
+
+.home_intro_img {
+  width: 12rem;
+  height: 12rem;
+  border-radius: 50% / 50%;
+  position: absolute;
+  margin-top: 30rem;
+  border: 2px dashed var(--tertiary-color);
+  padding: 10px;
+}
+
+.home_filter_section {
+  margin: 5rem auto;
+  margin-top: 47rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.home_filter_article {
+  background-image: url(../assets/images/courgettes-bois.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 80%;
+  height: 20rem;
+  display: block;
+  margin: auto;
+  border-radius: 50px 0px;
+  box-shadow: 14px 8px 24px 0px rgba(14, 14, 20, 0.8);
+}
+
+.home_filter_article2 {
+  background-image: url(../assets/images/fraises.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 80%;
+  height: 20rem;
+  display: block;
+  margin: auto;
+  border-radius: 0px 50px;
+  box-shadow: 8px 14px 24px 0px rgba(14, 14, 20, 0.8);
+}
+
+.home_filter_article3 {
+  background-image: url(../assets/images/basilic.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 80%;
+  height: 20rem;
+  display: block;
+  margin: auto;
+  border-radius: 50px 0px;
+  box-shadow: 14px 8px 24px 0px rgba(14, 14, 20, 0.8);
+}
+
+.home_filter_article4 {
+  background-image: url(../assets/images/legumes-mix.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 80%;
+  height: 20rem;
+  display: block;
+  margin: auto;
+  border-radius: 0px 50px;
+  box-shadow: 8px 14px 24px 0px rgba(14, 14, 20, 0.8);
+}
+
+.home_filter_header {
+  background-color: rgba(191, 178, 170, 0.7);
+  width: 12rem;
+  text-align: center;
+  padding: 0.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 12rem;
+}
+
+.home_filter_title {
+  font-family: var(--secondary-font);
+  font-size: 2rem;
+  color: var(--secondary-color);
+  width: 100%;
+  padding: 0.5rem;
+  text-align: center;
+  border: 1px solid var(--secondary-color);
+}

@@ -1,0 +1,25 @@
+.footer {
+    background-color: var(--secondary-color);
+    width: 100%;
+    color: var(--primary-color);
+    font-family: var(--primary-font);
+    text-align: center;
+    padding: 2rem;
+    font-size: 1.5em;
+    line-height: 1.5;
+    margin-top: 2rem;
+}
+
+.footer > p:nth-of-type(2){
+    font-style: italic;
+    padding-top: .3rem;
+}
+
+.footer_heart {
+    color: red;
+}
+
+.footer > p:last-of-type{
+    padding-top: 1rem;
+    font-size: 1.2rem;
+}

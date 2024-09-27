@@ -1,0 +1,32 @@
+nav {
+    background-color: var(--secondary-color);
+    width: 100%;
+    color: var(--primary-color);
+    font-family: var(--primary-font);
+    padding: 1rem;
+    font-size: 1em;
+    line-height: 1.5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary-color)
+}
+
+nav > ul {
+    list-style: none;
+    display: flex;
+    gap: .8rem;
+    justify-content: flex-end;
+    color: var(--primary-color);
+    text-align: center;
+}
+
+.nav_logo {
+    width: 3rem;
+}

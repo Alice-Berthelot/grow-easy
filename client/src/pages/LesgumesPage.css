@@ -1,0 +1,7 @@
+.categories_title {
+  font-family: var(--secondary-font);
+  margin: 7rem auto 3rem;
+  text-align: center;
+  color: var(--tertiary-color);
+  font-size: 2rem;
+}

@@ -1,0 +1,38 @@
+.food_title {
+    font-family: var(--secondary-font);
+    margin: 7rem auto 3rem;
+    text-align: center;
+    color: var(--tertiary-color);
+}
+.food_card {
+    width: 20rem;
+    height: 45rem;
+    margin: auto;
+    border: 0.3rem dashed var(--secondary-color);
+    border-radius: 1rem;
+}
+.food_name {
+    text-align: center;
+    font-family: var(--secondary-font);
+    color: var(--tertiary-color);
+    font-size: 2rem;
+}
+.food_type {
+    text-align: center;
+    font-family: var(--primary-font);
+    color: var(--tertiary-color);
+}
+.food_photo {
+    width: 15rem;
+    height: 10rem;
+    display: block;
+    margin: 1rem auto;
+    border: 0.2rem solid var(--secondary-color);
+    border-radius: 1rem;
+}
+.food_para {
+    margin: 0.8rem;
+    font-family: var(--primary-font);
+    font-weight: 700;
+    color: var(--tertiary-color)
+}

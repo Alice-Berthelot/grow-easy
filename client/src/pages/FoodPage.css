@@ -1,0 +1,11 @@
+.toutes-catégories {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.food_select {
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: var(--primary-font);
+}

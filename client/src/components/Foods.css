@@ -1,0 +1,49 @@
+.category {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem auto;
+}
+li {
+    list-style: none;
+}
+.foods_title {
+    font-family: var(--secondary-font);
+    margin: 7rem auto 2rem;
+    text-align: center;
+    color: var(--tertiary-color);
+    font-size: 2rem;
+}
+.foods_card {
+    width: 20rem;
+    height: 25rem;
+    margin: auto;
+    border: 0.3rem dashed var(--secondary-color);
+    border-radius: 1rem;
+}
+.foods_name {
+    text-align: center;
+    font-family: var(--secondary-font);
+    color: var(--tertiary-color);
+    font-size: 2rem;
+}
+.foods_type {
+    text-align: center;
+    font-family: var(--primary-font);
+    color: var(--tertiary-color);
+}
+.foods_photo {
+    width: 15rem;
+    display: block;
+    margin: 1rem auto;
+    border: 0.2rem solid var(--secondary-color);
+    border-radius: 1rem;
+}
+.foods_para {
+    margin: 0.8rem;
+    font-family: var(--primary-font);
+    font-weight: 700;
+    color: var(--tertiary-color)
+}
+.foods_para_smiley {
+    text-align: center;
+}

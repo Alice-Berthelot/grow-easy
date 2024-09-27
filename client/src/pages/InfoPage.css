@@ -1,0 +1,91 @@
+.infopage_body {
+    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.infopage_title {
+    font-family: var(--secondary-font);
+    color: var(--secondary-color);
+    text-align: center;
+    margin: 2rem auto;
+}
+.infopage_subtitle {
+    font-family: var(--secondary-font);
+    color: var(--secondary-color);
+    margin: 1rem;
+}
+.infopage_item {
+    font-family: var(--secondary-font);
+    color: var(--secondary-color);
+    margin: 1rem 1.5rem;
+}
+.infopage_paragraphe {
+    font-family: var(--primary-font);
+    font-size: 1.5em;
+    line-height: 1.5;
+    margin: 0 2rem;
+    color: var(--tertiary-color);
+    font-weight: 500;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+.infopage_intro {
+    font-family: var(--primary-font);
+}
+.infopage_intro1_image {
+    width: 15rem;
+    display: block;
+    margin: 1rem auto;
+}
+.infopage_intro2_image {
+    width: 20rem;
+    display: block;
+    margin: 1rem auto;
+}
+.infopage_image {
+    width: 20rem;
+    display: block;
+    margin: 1rem auto;
+}
+.infopage_dernier_paragraphe {
+    font-family: var(--primary-font);
+    line-height: 1.5;
+    margin: 0 2rem 2rem;
+}
+
+@keyframes translationTitles {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+  }
+
+.infopage_title, .infopage_subtitle, .infopage_item {
+ animation-name: translationTitles;
+  animation-duration: 1.5s;
+  animation-fill-mode: ease-out forwards;
+}
+
+@keyframes translationItems {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+  }
+
+  .infopage_paragraphe, .infopage_image, .infopage_intro1_image, .infopage_intro2_image {
+    animation-name: translationItems;
+     animation-duration: 1.5s;
+     animation-fill-mode: ease-out forwards;
+   }
+   
+   .infopage_image, .infopage_intro1_image, .infopage_intro2_image {
+    border-radius: 20px 0;
+   }
